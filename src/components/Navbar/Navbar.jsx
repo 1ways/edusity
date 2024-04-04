@@ -27,11 +27,7 @@ const Navbar = () => {
       <a href='#'>
         <img className='logo' src={logo} alt='logo' />
       </a>
-      <ul
-        className={`nav__list ${
-          mobileMenu ? 'hide-mobile-menu' : ''
-        }`}
-      >
+      <ul className={`nav__list ${mobileMenu ? '' : 'hide-mobile-menu'}`}>
         <li className='nav__list-item nav__list-item-link'>
           <Link to='hero' smooth={true} offset={0} duration={500}>
             Home

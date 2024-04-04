@@ -63,16 +63,17 @@ const Contact = () => {
         <form onSubmit={onSubmit}>
           <label>Your name</label>
           <input
-            type='text'
+            type='email'
             name='name'
             placeholder='Enter your name'
             required
           />
           <label>Phone number</label>
           <input
-            type='tel'
+            type='number'
             name='phone'
             placeholder='Enter your mobile number'
+            pattern='[0-9]{3}-[0-9]{2}-[0-9]{3}'
             required
           />
           <label>Write your messages here</label>
