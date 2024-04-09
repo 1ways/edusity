@@ -10,7 +10,9 @@ const Programs = () => {
   return (
     <section className='programs'>
       <div className='program'>
-        <img className='program-img' src={program_1} alt='program-img-1' />
+        <div className='program-img'>
+          <img src={program_1} alt='program-img-1' />
+        </div>
         <div className='caption'>
           <img
             className='caption-icon'
@@ -21,7 +23,9 @@ const Programs = () => {
         </div>
       </div>
       <div className='program'>
-        <img className='program-img' src={program_2} alt='program-img-2' />
+        <div className='program-img'>
+          <img src={program_2} alt='program-img-2' />
+        </div>
         <div className='caption'>
           <img
             className='caption-icon'
@@ -32,7 +36,9 @@ const Programs = () => {
         </div>
       </div>
       <div className='program'>
-        <img className='program-img' src={program_3} alt='program-img-3' />
+        <div className='program-img'>
+          <img src={program_3} alt='program-img-3' />
+        </div>
         <div className='caption'>
           <img
             className='caption-icon'

@@ -9,10 +9,18 @@ const Campus = () => {
   return (
     <section className='campus'>
       <div className='gallery'>
-        <img src={gallery_1} alt='gallery-1' />
-        <img src={gallery_2} alt='gallery-2' />
-        <img src={gallery_3} alt='gallery-3' />
-        <img src={gallery_4} alt='gallery-4' />
+        <div className='gallery-item'>
+          <img src={gallery_1} alt='gallery-1' />
+        </div>
+        <div className='gallery-item'>
+          <img src={gallery_2} alt='gallery-2' />
+        </div>
+        <div className='gallery-item'>
+          <img src={gallery_3} alt='gallery-3' />
+        </div>
+        <div className='gallery-item'>
+          <img src={gallery_4} alt='gallery-4' />
+        </div>
       </div>
       <button className='btn dark-btn'>
         See more here <img src={white_arrow} alt='white-arrow' />
